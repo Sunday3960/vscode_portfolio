@@ -1,0 +1,333 @@
+.linked {
+  font-family: cubano, sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+.light {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  color: #bdc3cf;
+  background-color: #f3f3f3;
+}
+
+p {
+  text-orientation: left;
+  text-align: left;
+}
+
+.fifty {
+  max-width: 50%;
+}
+
+.main-col {
+  max-width: 100%;
+}
+.profile-pic {
+  background-color: white;
+  border-radius: 50%;
+  max-width: 50vw;
+  border: 3px rgba(0, 0, 0, 0.37) solid;
+  background-image: url("https://i.imgur.com/1l7dDhq.png");
+  background-position: center;
+}
+
+.profile-pic:hover {
+  animation: ease-in-out;
+}
+
+.desk:hover {
+  scale: 105%;
+}
+
+.full {
+  width: 100%;
+}
+
+.gpt-link {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.167;
+  letter-spacing: 0em;
+  margin-top: -23px;
+  text-decoration: none;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+.resumeButton {
+  margin-left: 17px;
+}
+
+.MuiTreeItem-label {
+  text-decoration: none !important;
+}
+
+#about .download .button:hover .dark {
+  background: #fff;
+  color: #2b2b2b;
+}
+
+#about .download .button:hover .light {
+  background: #fff;
+  color: red;
+}
+
+#about .download .button {
+  margin-top: 6px;
+  background: #444;
+}
+
+.button,
+.button:visited,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  font: 16px/30px sans-serif;
+  background: #11abb0;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 0;
+  color: #fff;
+  padding: 12px 20px;
+  margin-bottom: 18px;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -khtml-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* ------- */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.columns {
+  flex: 1;
+  padding: 10px;
+}
+
+.gptText {
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.contact-details {
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #777;
+  cursor: pointer;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+.md\:pb-0 {
+  padding-bottom: 0 !important;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.h-8 {
+  height: 2rem;
+}
+.w-8 {
+  width: 2rem;
+}
+
+.infoText {
+  color: #fff;
+  padding: 0.375rem 0.75rem;
+  border-color: rgba(107, 114, 128, 0.5);
+  border-width: 2px;
+}
+
+.examples {
+  background-color: #40414f;
+  border: 2px solid rgba(103, 105, 129, 0.678);
+  border-radius: 25px;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.5rem 0.75rem;
+  transition: all 0.2s;
+  text-decoration: none;
+  /* text-align: center; */
+  vertical-align: middle;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.ex2 {
+  cursor: pointer;
+}
+
+.examples:hover {
+  outline: 3px solid white;
+}
+
+p {
+  max-width: 100%;
+}
+
+.copyBtn {
+  position: absolute;
+  left: 70%;
+  padding-left: 2em !important;
+  padding-right: 2em !important;
+  padding-top: 0px !important;
+  font-size: x-small;
+  padding-bottom: 0px !important;
+  z-index: 2;
+  top: 0.1rem;
+  background-color: #40414f;
+  border: 2px solid rgba(103, 105, 129, 0.329);
+  border-radius: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-width: 0;
+}
+.copyBtn:hover {
+  scale: 125%;
+  cursor: pointer;
+  border-color: white;
+}
+
+.copyBtn::before {
+  content: "Copy";
+}
+
+.copyBtn:active::before {
+  content: "Copied!";
+}
+
+.exampleHolder {
+  position: relative;
+}
+
+.markdown-logo p img {
+  width: 300px;
+}
+
+.markdown-img p img,
+video {
+  max-width: 99%;
+}
+
+.css-1oqqzyl-MuiContainer-root {
+  margin-left: 0px !important;
+}
+
+.MuiContainer-maxWidthLg > p:nth-child(4) > img:nth-child(1):hover {
+  scale: 105%;
+}
+.MuiContainer-maxWidthLg > p:nth-child(4) > img:nth-child(1) {
+  border-radius: 15px;
+}
+
+.css-1qsxih2 {
+  margin-left: 1px !important;
+}
+
+.MuiContainer-maxWidthLg > p:nth-child(10) > img:nth-child(1) {
+  width: 99%;
+  max-width: 960px;
+}
+
+
+.chatButton {
+  text-decoration:none;
+  color: white;
+  display: none;
+   
+}
+
+.chatButton:hover {
+  scale:calc(105%);
+  color: rgb(116, 233, 116);
+}
+
+
+.chatInfo {
+  position: fixed;
+  bottom: 90px;
+  right: 5px;
+  display: none;
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 8px;
+  font-size:large;
+  z-index: 5;
+
+}
+.chatButton:hover ~ .chatInfo {
+  display: block;
+}
+
+
+@media (min-width: 1320px) {
+  .chatButton {
+    display: block;
+  }
+
+}
