@@ -54,8 +54,7 @@ export default function About() {
   return (
     <section id='about'>
       <div className='full'>
-        <img className='profile-pic' src='/favicon.png' alt='Dylan Kotzer' />
-        {/* <img src='/desk.png' alt='Isometric Dylan' className='desk' /> */}
+        
       </div>
       <Typography sx={{ textDecoration: "none" }} variant='h3'>
         Hi, I'm Dylan Kotzer
@@ -70,38 +69,7 @@ export default function About() {
         <button className='fa fa-download'>View Resume</button>
       </a> */}
       <div className=''>
-        <p className='gptText'>
-          {" "}
-          Allow me to introduce you to{" "}
-          <a href='https://gpt.dylankotzer.com/'>DylanGPT</a>, an advanced
-          chatbot built on cutting-edge technology that I developed to be the
-          resume of tomorrow. You can use{" "}
-          <a href='https://gpt.dylankotzer.com/'>DylanGPT</a> to answer any
-          questions you may have about me, including contextualized questions
-          about my skills, experience, and projects, and more.
-        </p>
-
-        <p className='gptText'>
-          {" "}
-          <a href='https://gpt.dylankotzer.com/'>DylanGPT</a> is also capable of
-          having engaging conversations about a wide range of topics beyond just
-          my portfolio. Why not take advantage of this unique opportunity to
-          glimpse the future of digital resumes? Chat with{" "}
-          <a href='https://gpt.dylankotzer.com/'>DylanGPT</a> to get a better
-          understanding of my qualifications and fit for your organization.{" "}
-        </p>
-        <div className='desk'>
-          <a href='https://gpt.dylankotzer.com'>
-            <img src='/chatbot.png' alt='DylanGPT' />
-            <h1 className='gpt-link'>DylanGPT</h1>
-          </a>
-        </div>
-        <p className='gptText'>
-          I strongly encourage you to engage with DylanGPT by asking questions
-          and follow-ups to get the most out of your experience. However, if
-          you're in need of inspiration, feel free to use the following chat
-          template for inspiration.
-        </p>
+        
         {/* <div style={{ marginLeft: "12px" }}>
             <div className='exampleHolder'>
               <div onClick={copyText} className='copyBtn' id='ex1'></div>
