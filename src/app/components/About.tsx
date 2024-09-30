@@ -57,7 +57,7 @@ export default function About() {
         
       </div>
       <Typography sx={{ textDecoration: "none" }} variant='h3'>
-        Hi, I'm Dylan Kotzer
+        ShinHyoung KIM
       </Typography>
       <div className='typed'>
         <h2>
